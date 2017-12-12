@@ -1,0 +1,11 @@
+server:
+  port: 8090
+
+zuul:
+  routes:
+    api:
+      path: /baidu/**
+      url: http://www.baidu.com
+
+      path: /taobao/**
+      url: http://www.taobao.com
